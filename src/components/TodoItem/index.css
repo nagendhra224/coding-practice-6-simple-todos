@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.todo-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.title {
+  color: #000000;
+  font-size: 16px;
+  font-family: roboto;
+}
+.delet-icon {
+  background-color: #ffffff;
+  color: #ff0b37;
+  font-family: roboto;
+  border: 1px solid #ff0b37;
+  padding-top: 4px;
+  outline: none;
+  cursor: pointer;
+  margin-left: 16px;
+}
+@media screen and (min-width: 768ox) {
+  .title {
+    font-size: 24px;
+  }
+}
